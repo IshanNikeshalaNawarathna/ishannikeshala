@@ -1,10 +1,17 @@
+import { Hero } from "./page/Hero";
+import { About } from "./page/About";
+import { Project } from "./page/Project";
+import { Contact } from "./page/Contact";
+
 function App() {
-    return (
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-        i'm ishan nikeshala nawaratha
-      </h1>
-    )
+  return (
+    <>
+      <Hero />
+      <About />
+      <Project />
+      <Contact/>
+    </>
+  )
 }
 
 export default App;

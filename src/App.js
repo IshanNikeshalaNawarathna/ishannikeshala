@@ -4,9 +4,11 @@ import { Project } from "./page/Project";
 import { Contact } from "./page/Contact";
 import Navbar from "./components/Navbar";
 
+
 function App() {
   return (
     <>
+
       <Navbar />
     </>
   )

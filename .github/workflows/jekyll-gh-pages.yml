@@ -33,7 +33,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./public/index.html
+          source: ./
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -49,6 +49,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4 
-  kramdown:
-    syntax_highlighter_opts:
-        disable : true
+
+kramdown:
+  syntax_highlighter_opts:
+    disable : true

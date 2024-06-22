@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ishannikeshala/static/css/main.cf64c8bf.css",
+    "main.js": "/ishannikeshala/static/js/main.62f9acdf.js",
+    "static/js/453.8249059e.chunk.js": "/ishannikeshala/static/js/453.8249059e.chunk.js",
+    "index.html": "/ishannikeshala/index.html",
+    "main.cf64c8bf.css.map": "/ishannikeshala/static/css/main.cf64c8bf.css.map",
+    "main.62f9acdf.js.map": "/ishannikeshala/static/js/main.62f9acdf.js.map",
+    "453.8249059e.chunk.js.map": "/ishannikeshala/static/js/453.8249059e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf64c8bf.css",
+    "static/js/main.62f9acdf.js"
+  ]
+}

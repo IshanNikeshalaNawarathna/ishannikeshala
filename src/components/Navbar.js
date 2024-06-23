@@ -61,7 +61,7 @@ export default function Navbar() {
             onClick={toggleTheme}
           >
             {theme === 'dark' ? (
-              <MdDarkMode className="w-6 h-6 text-yellow-500" />
+              <MdDarkMode className="w-6 h-6 text-white" />
             ) : (
               <MdSunny className="w-6 h-6 text-gray-800" />
             )}
@@ -97,7 +97,7 @@ export default function Navbar() {
                   onClick={toggleTheme}
                 >
                   {theme === 'dark' ? (
-                    <MdDarkMode className="w-6 h-6 text-yellow-500" />
+                    <MdDarkMode className="w-6 h-6 text-white" />
                   ) : (
                     <MdSunny className="w-6 h-6 text-gray-800" />
                   )}

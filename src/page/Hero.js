@@ -3,6 +3,8 @@ import img from '../assets/img/ISHAN.jpg';
 import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
+import { TypeAnimation } from 'react-type-animation';
+import { FaMedium } from "react-icons/fa6";
 
 export const Hero = () => {
   return (
@@ -15,13 +17,24 @@ export const Hero = () => {
               <img src={img} className='h-80 w-80 rounded-full' />
             </div>
             <p>Ishan Nikeshala Nawarathna</p>
-            <p>I'm Software Engineer</p>
+            <TypeAnimation
+              sequence={[
+                "I'm Software Engineer", 1000,
+                "I'm Backend Engineer", 1000,
+              ]}
+              wrapper='span'
+              speed={20}
+              className='text-2xl font-bold'
+              repeat={Infinity}
+            />
+       
             <div className='flex justify-center items-center'>
               <IoLogoGithub />
               <FaLinkedin />
+              <FaMedium />
             </div>
             <div className='flex justify-center items-center '>
-              <button className='flex justify-between items-center '><MdDownload/>Download CV</button>
+              <button className='flex justify-between items-center '><MdDownload />Download CV</button>
             </div>
           </div>
         </div>

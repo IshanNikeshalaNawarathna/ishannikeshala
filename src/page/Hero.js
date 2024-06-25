@@ -14,7 +14,7 @@ export const Hero = () => {
         <div className='mx-auto max-w-6xl py-20 sm:py-40 lg:pt-40'>
           <div className='text-center'>
             <div className='flex justify-center items-center'>
-              <img src={img} className='h-80 w-80 rounded-full' />
+              <img src={img} className='lg:h-80 lg:w-80 h-52 w-52 rounded-full' />
             </div>
             <p>Ishan Nikeshala Nawarathna</p>
             <TypeAnimation

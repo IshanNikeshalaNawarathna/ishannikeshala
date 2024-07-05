@@ -9,9 +9,9 @@ import { FaMedium } from "react-icons/fa6";
 export const Hero = () => {
   return (
     <>
-      <div className='relative isolate px-8  '>
+      <div className='relative isolate px-8 '>
 
-        <div className='mx-auto max-w-6xl py-20 sm:py-40 lg:pt-40'>
+        <div className='mx-auto max-w-5xl py-20 sm:py-40 lg:pt-32'>
           <div className='text-center'>
             <div className='flex justify-center items-center'>
               <img src={img} className='lg:h-80 lg:w-80 h-52 w-52 rounded-full' />

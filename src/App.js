@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Hero/>
       <About/>
-      <Contact/>
+      {/* <Contact/> */}
     </>
   )
 }

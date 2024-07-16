@@ -4,9 +4,10 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  // darkMode: 'class',
+  
   theme: {
     extend: {
+      darkMode: 'class',
       colors: {
         'backgroundLight': '#F8FAFC',
       },

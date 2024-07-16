@@ -16,7 +16,10 @@ export const Hero = () => {
             <div className='flex justify-center items-center'>
               <img src={img} className='lg:h-80 lg:w-80 h-52 w-52 rounded-full' />
             </div>
-            <p>Ishan Nikeshala Nawarathna</p>
+            <div className='mt-8'>
+              <p className='lg:text-5xl text-xl font-bold'>Ishan Nikeshala Nawarathna</p>
+            </div>
+            <div className=' mt-8'>
             <TypeAnimation
               sequence={[
                 "I'm Software Engineer", 1000,
@@ -24,17 +27,18 @@ export const Hero = () => {
               ]}
               wrapper='span'
               speed={20}
-              className='text-2xl font-bold'
+              className='text-2xl lg:text-4xl font-bold'
               repeat={Infinity}
             />
-       
-            <div className='flex justify-center items-center'>
-              <IoLogoGithub />
-              <FaLinkedin />
-              <FaMedium />
             </div>
-            <div className='flex justify-center items-center '>
-              <button className='flex justify-between items-center '><MdDownload />Download CV</button>
+
+            <div className='flex justify-center items-center mt-8 '>
+              <IoLogoGithub size={30}/>
+              <FaLinkedin size={30}/>
+              <FaMedium size={30}/>
+            </div>
+            <div className='flex justify-center justify-items-center mt-8'>
+            <button type="button" className="text-white flex justify-between items-center bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium  rounded-full text-lg px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"><MdDownload />Download CV</button>
             </div>
           </div>
         </div>

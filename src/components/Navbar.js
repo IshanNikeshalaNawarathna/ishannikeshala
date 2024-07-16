@@ -39,8 +39,8 @@ export default function Navbar() {
   };
   return (
 
-    <header className="absolute inset-x-0 top-0 z-50 lg:mt-8 mt-5">
-      <nav className="flex items-center justify-between p-6 lg:px-8 lg:justify-center lg:flex" aria-label="Global">
+    <header className=" inset-x-0 top-0 z-50  fixed bg-white">
+      <nav className="flex items-center  justify-between p-6 lg:px-8 lg:justify-center lg:flex" aria-label="Global">
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -50,7 +50,7 @@ export default function Navbar() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden  lg:flex lg:gap-x-12 border pt-5 pr-7 pl-7 pb-5 fixed rounded-full">
+        <div className="hidden  lg:flex lg:gap-x-12 border pt-5 pr-7 pl-7 pb-5  rounded-full">
           <a className='font-bold'>ISHAN</a>
           {navigation.map((item) => (
             <a key={item.icon} href={item.href} className="text-2xl font-semibold leading-6">
@@ -69,8 +69,8 @@ export default function Navbar() {
         </div>
       </nav>
       <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-        <div className="fixed inset-0 z-50" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto px-6 py-6 sm:max-w-sm sm:ring-1">
+        <div className=" inset-0 z-50" />
+        <DialogPanel className="inset-y-0 right-0 z-50 w-full overflow-y-auto px-6 py-6 sm:max-w-sm sm:ring-1">
           <div className="flex items-center justify-between">
             <button
               type="button"

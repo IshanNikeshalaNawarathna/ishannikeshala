@@ -11,7 +11,7 @@ export const Hero = () => {
     <>
       <div className='relative isolate px-8 '>
 
-        <div className='mx-auto max-w-5xl py-20 sm:py-40 lg:pt-32'>
+        <div className='mx-auto max-w-5xl py-20 sm:py-40 lg:pt-32 md:flex md:justify-center md:items-center'>
           <div className='text-center'>
             <div className='flex justify-center items-center'>
               <img src={img} className='lg:h-80 lg:w-80 h-72 w-72 rounded-full' />

@@ -17,7 +17,7 @@ export const Hero = () => {
               <img src={img} className='lg:h-80 lg:w-80 h-52 w-52 rounded-full' />
             </div>
             <div className='mt-8'>
-              <p className='lg:text-5xl text-xl font-bold'>Ishan Nikeshala Nawarathna</p>
+              <p className='lg:text-5xl text-2xl font-bold'>Ishan Nikeshala Nawarathna</p>
             </div>
             <div className=' mt-8'>
             <TypeAnimation

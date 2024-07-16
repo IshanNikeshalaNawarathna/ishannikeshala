@@ -14,7 +14,7 @@ export const Hero = () => {
         <div className='mx-auto max-w-5xl py-20 sm:py-40 lg:pt-32'>
           <div className='text-center'>
             <div className='flex justify-center items-center'>
-              <img src={img} className='lg:h-80 lg:w-80 h-52 w-52 rounded-full' />
+              <img src={img} className='lg:h-80 lg:w-80 h-60 w-60 rounded-full' />
             </div>
             <div className='lg:mt-8 mt-4'>
               <p className='lg:text-5xl text-2xl font-bold'>Ishan Nikeshala Nawarathna</p>

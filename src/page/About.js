@@ -10,7 +10,7 @@ export const About = () => {
 
   return (
     <>
-      <div className='relative isolate px-8 '>
+      <div className='relative isolate px-8 lg:mt-0 mt-3'>
 
         <div className='mx-auto lg:max-w-5xl  lg:py-0 py-10 sm:py-20 lg:pt-10'>
           <div className='pb-8 lg:pb-8'>

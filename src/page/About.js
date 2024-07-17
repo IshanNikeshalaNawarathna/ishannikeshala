@@ -1,7 +1,7 @@
-import React, { useState,Fragment } from 'react'
+import React, { useState, Fragment } from 'react'
 import img from '../assets/img/ISHAN.jpg';
 import { MdDownload } from "react-icons/md";
-// import { render } from "react-dom";
+import { render } from "react-dom";
 import { Timeline, Event } from "react-timeline-scribble";
 
 
@@ -14,7 +14,7 @@ export const About = () => {
 
         <div className='mx-auto lg:max-w-5xl  lg:py-0 py-10 sm:py-20 lg:pt-10'>
           <div className='pb-8 lg:pb-8'>
-            <span className='font-bold text-4xl'>About Me</span>
+            <span className='font-bold text-4xl'>ABOUT ME</span>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-4">
             <div class="lg:row-span-3 row-span-1 justify-center flex">
@@ -25,32 +25,39 @@ export const About = () => {
               <p className='text-xl font-normal'>Throughout my career, I have consistently demonstrated my ability to adapt to new technologies and frameworks, ensuring that I stay at the forefront of the ever-evolving tech landscape. My approach to software development is driven by a commitment to quality, efficiency, and user-centric design.</p>
             </div>
             <div className=''>
-              <button className='bg-slate-400 w-56 h-10 flex items-center justify-center'><MdDownload />Download</button>
+              <button type="button" className="text-white flex justify-between items-center bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-1 focus:ring-gray-300 font-medium  rounded-full text-lg px-10 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"><MdDownload />Download CV</button>
             </div>
           </div>
-          <div className='mt-10'>
-          <Fragment>
-            <Timeline>
-              <Event interval={"2016 – 2018"} title={"Lorem"} subtitle={"Ipsum"}>
-                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                id est laborum.
-              </Event>
-              <Event interval={"2015 – 2016"} title={"Lorem"} subtitle={"Ipsum"}>
-                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                id est laborum.
-              </Event>
-            </Timeline>
-          </Fragment>
+          <div className='lg:mt-16 mt-10'>
+            <Fragment>
+              <Timeline className='bg-black'>
+                <Event interval={"2022 - Present"} title={"Education"} subtitle={"BEng In Software Engineering | IIC university of technology Cambodia  University"}>
+                  As a undergraduate of the Bachelor of Engineering in Software Engineering program, I possess a deep understanding of software design, development, and maintenance. With I strong foundation in computer science, programming languages, and software development methodologies, I am well-equipped to meet industry standards and customer requirements in designing and developing software applications. I am prepared to contribute to the advancement of the field through I have knowledge and expertise in software engineering principles.
+                </Event>
+                <Event interval={"2015 – 2016"} title={"Skills"}>
+                  <li>
+                 Programming Languages: Java, PHP
+                  </li>
+                  Front-end Technologies: React, React Native
+                  CSS Frameworks: Bootstrap, Tailwind CSS
+                  Web Technologies: HTML, CSS, JavaScript
+                  Databases: MySQL, PostgreSQL
+                  Communication: Strong verbal and written communication skills, Team collaboration
+                  Development Practices: Version Control (Git)
+                </Event>
+                <Event interval={"2015 – 2016"} title={"Experience"} subtitle={"Project Experiences"}>
+                  <li>
+                 Programming Languages: Java, PHP
+                  </li>
+                  Front-end Technologies: React, React Native
+                  CSS Frameworks: Bootstrap, Tailwind CSS
+                  Web Technologies: HTML, CSS, JavaScript
+                  Databases: MySQL, PostgreSQL
+                  Communication: Strong verbal and written communication skills, Team collaboration
+                  Development Practices: Version Control (Git)
+                </Event>
+              </Timeline>
+            </Fragment>
 
           </div>
         </div>

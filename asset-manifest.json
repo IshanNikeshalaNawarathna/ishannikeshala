@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ishannikeshala/static/css/main.7c612379.css",
-    "main.js": "/ishannikeshala/static/js/main.fab04f21.js",
+    "main.css": "/ishannikeshala/static/css/main.599e8791.css",
+    "main.js": "/ishannikeshala/static/js/main.92b35c55.js",
     "static/js/453.8249059e.chunk.js": "/ishannikeshala/static/js/453.8249059e.chunk.js",
     "static/media/ISHAN.jpg": "/ishannikeshala/static/media/ISHAN.47daede8647c6455296b.jpg",
     "index.html": "/ishannikeshala/index.html",
-    "main.7c612379.css.map": "/ishannikeshala/static/css/main.7c612379.css.map",
-    "main.fab04f21.js.map": "/ishannikeshala/static/js/main.fab04f21.js.map",
+    "main.599e8791.css.map": "/ishannikeshala/static/css/main.599e8791.css.map",
+    "main.92b35c55.js.map": "/ishannikeshala/static/js/main.92b35c55.js.map",
     "453.8249059e.chunk.js.map": "/ishannikeshala/static/js/453.8249059e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c612379.css",
-    "static/js/main.fab04f21.js"
+    "static/css/main.599e8791.css",
+    "static/js/main.92b35c55.js"
   ]
 }

@@ -3,7 +3,7 @@ import img from '../assets/img/ISHAN.jpg';
 import { MdDownload } from "react-icons/md";
 import { render } from "react-dom";
 import { Timeline, Event } from "react-timeline-scribble";
-
+import { CountUp } from 'use-count-up'
 
 export const About = () => {
 
@@ -58,7 +58,7 @@ export const About = () => {
                 </Event>
               </Timeline>
             </Fragment>
-
+            <CountUp isCounting end={1320} duration={3.2} />
           </div>
         </div>
 

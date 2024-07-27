@@ -4,6 +4,12 @@ import { MdDownload } from "react-icons/md";
 import { render } from "react-dom";
 import { Timeline, Event } from "react-timeline-scribble";
 import { CountUp } from 'use-count-up'
+import { RiCupLine } from "react-icons/ri";
+import { SlTrophy } from "react-icons/sl";
+import { GoRocket } from "react-icons/go";
+import { IoMdAdd } from "react-icons/io";
+import { AiOutlinePercentage } from "react-icons/ai";
+
 
 export const About = () => {
 
@@ -17,8 +23,8 @@ export const About = () => {
             <span className='font-bold text-4xl'>ABOUT ME</span>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-4">
-            <div class="lg:row-span-3 row-span-1 justify-center flex">
-              <img className=" lg:w-auto lg:h-auto h-80 rounded-2xl" src={img} alt="" />
+            <div class="lg:row-span-3 row-span-1 justify-center items-center flex shadow-md lg:w-auto lg:h-auto h-80  rounded-2xl">
+              <img className=" lg:w-auto lg:h-auto lg:p-5 h-72  rounded-2xl" src={img} alt="" />
             </div>
             <div className='grid grid-cols-1  md:grid-cols-1 lg:grid-cols-1 gap-4 lg:gap-4'>
               <p className='text-xl font-normal'>Hello, I'm Ishan Nikeshala Nawarathna, a passionate and skilled Software Engineer with extensive experience in Java and PHP. I specialize in developing robust and efficient back-end solutions while also excelling in front-end development with React and React Native. My proficiency in modern CSS frameworks like Bootstrap and Tailwind CSS allows me to create responsive and visually appealing user interfaces.</p>
@@ -36,7 +42,7 @@ export const About = () => {
                 </Event>
                 <Event interval={"2015 – 2016"} title={"Skills"}>
                   <li>
-                 Programming Languages: Java, PHP
+                    Programming Languages: Java, PHP
                   </li>
                   Front-end Technologies: React, React Native
                   CSS Frameworks: Bootstrap, Tailwind CSS
@@ -47,7 +53,7 @@ export const About = () => {
                 </Event>
                 <Event interval={"2015 – 2016"} title={"Experience"} subtitle={"Project Experiences"}>
                   <li>
-                 Programming Languages: Java, PHP
+                    Programming Languages: Java, PHP
                   </li>
                   Front-end Technologies: React, React Native
                   CSS Frameworks: Bootstrap, Tailwind CSS
@@ -58,7 +64,38 @@ export const About = () => {
                 </Event>
               </Timeline>
             </Fragment>
-            <CountUp isCounting end={1320} duration={3.2} />
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 lg:gap-4">
+              <div class="lg:row-span-3 row-span-1 justify-center items-center flex shadow-md rounded-2xl">
+                <div className="lg:text-[24px] text-[15px] lg:flex items-center">
+                  <div className='p-0'>
+                    <RiCupLine  className='lg:text-[84px] text-[54px]' />
+                  </div>
+                  <div>
+                    <h5 className='lg:text-[24px] text-[15px]'>Repositories</h5>
+                    <div className='flex items-center'>
+                    <IoMdAdd />
+                    <CountUp isCounting end={50} duration={3.2} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:row-span-3 row-span-1 justify-center items-center flex shadow-md  rounded-2xl">
+                <div className="text-4xl">
+                  <GoRocket />
+                  <h5>Compite Project </h5>
+                  <CountUp isCounting end={5} duration={3.2} />
+                </div>
+              </div>
+              <div class="lg:row-span-3 row-span-1 justify-center items-center flex shadow-md rounded-2xl">
+                <div className="text-4xl">
+                  <SlTrophy />
+                  <AiOutlinePercentage />
+                  <h5>Clean Code</h5>
+                  <CountUp isCounting end={100} duration={3.2} />
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 

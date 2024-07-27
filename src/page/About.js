@@ -43,45 +43,45 @@ export const About = () => {
                 </Event>
                 <Event interval={"2015 – 2016"} title={"Skills"}>
                   <ul className='mt-1'>
-                    <li className='text-xl flex items-center gap-1'>
-                    <GoDotFill />
+                    <li className='text-xl flex lg:items-center gap-1'>
+                      <GoDotFill />
                       Programming Languages: Java, PHP
                     </li>
                   </ul>
                   <ul className='mt-1'>
-                    <li className='text-xl flex items-center gap-1'>
-                    <GoDotFill />
-                    Front-end Technologies: React, React Native
+                    <li className='text-xl flex lg:items-center gap-1'>
+                      <GoDotFill />
+                      Front-end Technologies: React, React Native
                     </li>
                   </ul>
                   <ul className='mt-1'>
-                    <li className='text-xl flex items-center gap-1'>
-                    <GoDotFill />
-                    CSS Frameworks: Bootstrap, Tailwind CSS
+                    <li className='text-xl flex lg:items-center gap-1'>
+                      <GoDotFill />
+                      CSS Frameworks: Bootstrap, Tailwind CSS
                     </li>
                   </ul>
                   <ul className='mt-1'>
-                    <li className='text-xl flex items-center gap-1'>
-                    <GoDotFill />
-                    Web Technologies: HTML, CSS, JavaScript
+                    <li className='text-xl flex lg:items-center gap-1'>
+                      <GoDotFill />
+                      Web Technologies: HTML, CSS, JavaScript
                     </li>
                   </ul>
                   <ul className='mt-1'>
-                    <li className='text-xl flex items-center gap-1'>
-                    <GoDotFill />
-                    Databases: MySQL, PostgreSQL
+                    <li className='text-xl flex lg:items-center gap-1'>
+                      <GoDotFill />
+                      Databases: MySQL, PostgreSQL
                     </li>
                   </ul>
                   <ul className='mt-1'>
-                    <li className='text-xl flex items-center gap-1'>
-                    <GoDotFill />
-                    Communication: Strong verbal and written communication skills, Team collaboration
+                    <li className='text-xl flex lg:items-center gap-1'>
+                      <GoDotFill />
+                      Communication: Strong verbal and written communication skills, Team collaboration
                     </li>
                   </ul>
                   <ul className='mt-1'>
-                    <li className='text-xl flex items-center gap-1'>
-                    <GoDotFill />
-                    Development Practices: Version Control (Git)
+                    <li className='text-xl flex lg:items-center gap-1'>
+                      <GoDotFill />
+                      Development Practices: Version Control (Git)
                     </li>
                   </ul>
                 </Event>

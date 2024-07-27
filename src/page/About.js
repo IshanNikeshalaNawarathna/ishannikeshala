@@ -36,68 +36,126 @@ export const About = () => {
             </div>
           </div>
           <div className='lg:mt-10 mt-10'>
-            <Fragment>
+
+
+            <ol class="relative border-s border-gray-200 dark:border-gray-700">
+              <li class="mb-10 ms-4">
+                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <time class="mb-1 text-3xl font-semibold leading-none text-gray-400 dark:text-gray-500">2022-Present</time>
+                <h3 class="text-2xl font-semibold  dark:text-gray-900 text-white">Education</h3>
+                <h3 class="text-2xl font-semibold  dark:text-gray-900 text-white">BEng In Software Engineering | IIC university of technology Cambodia  University</h3>
+                <p class="mb-4 text-xl font-normal text-gray-500 dark:text-gray-400">As a undergraduate of the Bachelor of Engineering in Software Engineering program, I possess a deep understanding of software design, development, and maintenance. With I strong foundation in computer science, programming languages, and software development methodologies, I am well-equipped to meet industry standards and customer requirements in designing and developing software applications. I am prepared to contribute to the advancement of the field through I have knowledge and expertise in software engineering principles.</p>
+
+              </li>
+              <li class="mb-10 ms-4">
+                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <time class="mb-1 text-3xl font-normal leading-none text-gray-400 dark:text-gray-500">2022-Present</time>
+                <h3 class="text-2xl font-semibold dark:text-gray-900 text-white">Skills</h3>
+                <div className='px-5 mt-3'>
+                  <ol class="relative border-s border-gray-200 dark:border-gray-700 mt-3">
+                    <li class="mb-2 ms-4">
+                      <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Programming Languages: Java, PHP</time>
+                    </li>
+                    <li class="mb-2 ms-4">
+                      <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Front-end Technologies: React, React Native</time>
+                    </li>
+                    <li class="mb-2 ms-4">
+                      <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">CSS Frameworks: Bootstrap, Tailwind CSS</time>
+                    </li>
+                    <li class="mb-2 ms-4">
+                      <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Databases: MySQL, Firebase</time>
+                    </li>
+                    <li class="mb-2 ms-4">
+                      <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">communication skills, Team collaboration</time>
+                    </li>
+                    <li class="mb-2 ms-4">
+                      <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Development Practices: Version Control (Git)</time>
+                    </li>
+                  </ol>
+                </div>
+              </li>
+              <li className="ms-4">
+                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <time className="mb-1 text-3xl font-semibold leading-none text-gray-400 dark:text-gray-500">2022-Present</time>
+                <h3 className="text-2xl font-semibold  dark:text-gray-900 text-white">Experience</h3>
+                <div className='px-5 mt-3'>
+                  <ol className="relative border-s border-gray-200 dark:border-gray-700">
+                    <li class="mb-5 ms-4">
+                      <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">2023-Present</time>
+                      <h3 class="text-xl font-semibold  dark:text-gray-900 text-white">Technology Blogger</h3>
+                      <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Medium</p>
+
+                    </li>
+                    <li className="mb-5 ms-4">
+                      <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Project Experience</time>
+                      <h3 className="text-xl font-semibold  dark:text-gray-900 text-white">Marketing UI design in Figma</h3>
+                      <p className="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                    </li>
+                    <li className="mb-5 ms-4">
+                      <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Volunteer Experience</time>
+                      <h3 className="text-xl font-semibold  dark:text-gray-900 text-white">Marketing UI design in Figma</h3>
+                      <p className="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                    </li>
+                  </ol>
+                </div>
+              </li>
+            </ol>
+
+
+
+            {/* <Fragment>
               <Timeline className='bg-black'>
                 <Event interval={"2022 - Present"} title={"Education"} subtitle={"BEng In Software Engineering | IIC university of technology Cambodia  University"}>
                   <p className='text-xl'> As a undergraduate of the Bachelor of Engineering in Software Engineering program, I possess a deep understanding of software design, development, and maintenance. With I strong foundation in computer science, programming languages, and software development methodologies, I am well-equipped to meet industry standards and customer requirements in designing and developing software applications. I am prepared to contribute to the advancement of the field through I have knowledge and expertise in software engineering principles.</p>
                 </Event>
                 <Event interval={"2015 – 2016"} title={"Skills"}>
-                  <ul className='mt-1'>
-                    <li className='text-xl flex lg:items-center gap-1'>
-                      <GoDotFill />
-                      Programming Languages: Java, PHP
-                    </li>
-                  </ul>
-                  <ul className='mt-1'>
-                    <li className='text-xl flex lg:items-center gap-1'>
-                      <GoDotFill />
-                      Front-end Technologies: React, React Native
-                    </li>
-                  </ul>
-                  <ul className='mt-1'>
-                    <li className='text-xl flex lg:items-center gap-1'>
-                      <GoDotFill />
-                      CSS Frameworks: Bootstrap, Tailwind CSS
-                    </li>
-                  </ul>
-                  <ul className='mt-1'>
-                    <li className='text-xl flex lg:items-center gap-1'>
-                      <GoDotFill />
-                      Web Technologies: HTML, CSS, JavaScript
-                    </li>
-                  </ul>
-                  <ul className='mt-1'>
-                    <li className='text-xl flex lg:items-center gap-1'>
-                      <GoDotFill />
-                      Databases: MySQL, PostgreSQL
-                    </li>
-                  </ul>
-                  <ul className='mt-1'>
-                    <li className='text-xl flex lg:items-center gap-1'>
-                      <GoDotFill />
-                      Communication: Strong verbal and written communication skills, Team collaboration
-                    </li>
-                  </ul>
-                  <ul className='mt-1'>
-                    <li className='text-xl flex lg:items-center gap-1'>
-                      <GoDotFill />
-                      Development Practices: Version Control (Git)
-                    </li>
-                  </ul>
+                  <p className='text-xl mt-4'>Programming Languages: Java, PHP</p>
+                  <p className='text-xl'>Front-end Technologies: React, React Native</p>
+                  <p className='text-xl'>CSS Frameworks: Bootstrap, Tailwind CSS</p>
+                  <p className='text-xl'>Web Technologies: HTML, CSS, JavaScript</p>
+                  <p className='text-xl'>Databases: MySQL, PostgreSQL</p>
+                  <p className='text-xl'>Communication: communication skills, Team collaboration</p>
+                  <p className='text-xl'>Development Practices: Version Control (Git)</p>
                 </Event>
-                <Event interval={"2015 – 2016"} title={"Experience"} subtitle={"Project Experiences"}>
-                  <li>
-                    Programming Languages: Java, PHP
-                  </li>
-                  Front-end Technologies: React, React Native
-                  CSS Frameworks: Bootstrap, Tailwind CSS
-                  Web Technologies: HTML, CSS, JavaScript
-                  Databases: MySQL, PostgreSQL
-                  Communication: Strong verbal and written communication skills, Team collaboration
-                  Development Practices: Version Control (Git)
+                <Event interval={"2022 Present"} title={"Experience"} >
+
+                  <ol class="relative border-s border-gray-200 dark:border-gray-700">
+                    <li class="mb-10 ms-4">
+                      <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022</time>
+                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Application UI code in Tailwind CSS</h3>
+                      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
+                      <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                      </svg></a>
+                    </li>
+                    <li class="mb-10 ms-4">
+                      <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2022</time>
+                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Marketing UI design in Figma</h3>
+                      <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                    </li>
+                    <li class="ms-4">
+                      <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                      <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 2022</time>
+                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">E-Commerce UI code in Tailwind CSS</h3>
+                      <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                    </li>
+                  </ol>
+
+
                 </Event>
               </Timeline>
-            </Fragment>
+            </Fragment> */}
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 lg:gap-4 mt-10">
               <div class="lg:row-span-3 row-span-1 justify-center items-center flex shadow-md rounded-2xl p-1">
                 <div className="lg:text-[24px] text-[17px] lg:flex items-center font-bold">

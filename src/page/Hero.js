@@ -5,13 +5,15 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { TypeAnimation } from 'react-type-animation';
 import { FaMedium } from "react-icons/fa6";
+import Button from '../components/Button';
+import GitHub from '../components/GitHub';
 
 export const Hero = () => {
   return (
     <>
-      <div className='relative isolate px-8  lg:mt-0 mt-7'>
+      <div className='relative isolate px-6  lg:mt-0 mt-7 '>
 
-        <div className='mx-auto max-w-5xl py-20 sm:py-40 lg:pt-32 '>
+        <div className='mx-auto max-w-5xl py-16 sm:py-32 lg:pt-32 '>
           <div className='text-center'>
             <div className='flex justify-center items-center'>
               <img src={img} className='lg:h-72 lg:w-72 h-72 w-72 rounded-full' />
@@ -38,8 +40,11 @@ export const Hero = () => {
               <FaMedium size={30} />
             </div>
             <div className='flex justify-center items-center lg:mt-8 mt-4 '>
-              <button type="button" className="text-white flex justify-between items-center bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-1 focus:ring-gray-300 font-medium  rounded-full text-lg px-10 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"><MdDownload />Download CV</button>
+              <Button />
             </div>
+          </div>
+          <div className='hidden  lg:flex'>
+            <GitHub />
           </div>
         </div>
 

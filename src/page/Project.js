@@ -10,6 +10,7 @@ export const Project = () => {
           <div className='pb-8 lg:pb-8'>
             <span className='font-bold text-4xl'>MY PROJECTS</span>
           </div>
+          
         </div>
       </div>
     </>

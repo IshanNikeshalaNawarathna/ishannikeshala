@@ -69,7 +69,7 @@ export const About = () => {
               </li>
               <li className="ms-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                <time className="mb-1 text-3xl font-semibold leading-none text-gray-400 dark:text-gray-500">2022-Present</time>
+                <time className="mb-1 text-3xl font-semibold leading-none text-gray-400 dark:text-gray-500">2023-Present</time>
                 <h3 className="text-2xl font-semibold  dark:text-gray-900 text-white">Experience</h3>
                 <div className='px-5 mt-3'>
                   <ol className="relative border-s border-gray-200 dark:border-gray-700">

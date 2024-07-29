@@ -12,7 +12,7 @@ function GitHub() {
             <div class="lg:row-span-3 row-span-1 justify-center items-center flex shadow-md rounded-2xl p-1">
                 <div className="lg:text-[24px] text-[17px] lg:flex items-center font-bold w-96 px-1.5 lg:px-0">
                     <div className='lg:pt-8 lg:p-3 pt-5'>
-                        <RiCupLine className='lg:text-[84px] text-[50px]' />
+                        <RiCupLine className='lg:text-[60px] text-[50px]' />
                     </div>
                     <div>
                         <h5 className='lg:text-[24px] text-[16px] font-semibold text-gray-600'>GitHub Repositories</h5>
@@ -26,7 +26,7 @@ function GitHub() {
             <div class="lg:row-span-3 row-span-1 justify-center items-center flex shadow-md  rounded-2xl p-1">
                 <div className="lg:text-[24px] text-[17px] lg:flex items-center font-bold w-96 px-1.5 lg:px-0">
                     <div className='lg:pt-8 lg:p-3 pt-5'>
-                        <GoRocket className='lg:text-[84px] text-[50px]' />
+                        <GoRocket className='lg:text-[60px] text-[50px]' />
                     </div>
                     <div>
                         <h5 className='lg:text-[24px] text-[16px] font-semibold text-gray-600'>Compite Project</h5>
@@ -39,7 +39,7 @@ function GitHub() {
             <div class="lg:row-span-3 row-span-1 justify-center items-center flex shadow-md rounded-2xl p-1">
                 <div className="lg:text-[24px] text-[17px] lg:flex lg:items-center font-bold w-96 px-1.5 lg:px-0">
                     <div className='lg:pt-8 lg:p-3 pt-5 '>
-                        <SlTrophy className='lg:text-[84px] text-[50px]' />
+                        <SlTrophy className='lg:text-[60px] text-[50px]' />
                     </div>
                     <div>
                         <h5 className='lg:text-[24px] text-[16px] font-semibold text-gray-600'>Clean Code</h5>

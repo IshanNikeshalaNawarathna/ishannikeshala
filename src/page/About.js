@@ -11,7 +11,7 @@ export const About = () => {
     <>
       <div className='relative isolate px-8 '>
 
-        <div className='mx-auto lg:max-w-5xl py-20 sm:py-32 lg:pt-32 '>
+        <div className='mx-auto lg:max-w-5xl py-10 sm:py-10 lg:pt-24 '>
           <div className='pb-8 lg:pb-8'>
             <span className='font-bold text-4xl'>ABOUT ME</span>
           </div>
@@ -35,7 +35,7 @@ export const About = () => {
                   <h3 class="text-2xl font-semibold  dark:text-gray-900 text-white">BEng In Software Engineering | IIC university of technology Cambodia  University</h3>
                   <p class="mb-4 text-xl font-normal text-gray-500 dark:text-gray-400">As a undergraduate of the Bachelor of Engineering in Software Engineering program, I possess a deep understanding of software design, development, and maintenance. With I strong foundation in computer science, programming languages, and software development methodologies, I am well-equipped to meet industry standards and customer requirements in designing and developing software applications. I am prepared to contribute to the advancement of the field through I have knowledge and expertise in software engineering principles.</p>
                 </li>
-                <li class="mb-10 ms-4">
+                <li class="mb-2 ms-4">
                   <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                   <time class="mb-1 text-3xl font-normal leading-none text-gray-400 dark:text-gray-500">2022-Present</time>
                   <h3 class="text-2xl font-semibold dark:text-gray-900 text-white">Skills</h3>
@@ -81,7 +81,7 @@ export const About = () => {
                         <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Medium</p>
 
                       </li>
-                      <li className="mb-5 ms-4">
+                      <li className="mb-2 ms-4">
                         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                         <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Project Experience</time>
                         <h3 className="text-xl font-semibold  dark:text-gray-900 text-white">Marketing UI design in Figma</h3>

@@ -10,7 +10,7 @@ function GitHub() {
     return (
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 lg:gap-4 lg:mt-8 mt-4">
             <div class="lg:row-span-3 row-span-1 justify-center items-center flex shadow-md rounded-2xl p-1">
-                <div className="lg:text-[24px] text-[17px] lg:flex items-center font-bold">
+                <div className="lg:text-[24px] text-[17px] lg:flex items-center font-bold w-96 px-1.5 lg:px-0">
                     <div className='lg:pt-8 lg:p-3 pt-5'>
                         <RiCupLine className='lg:text-[84px] text-[50px]' />
                     </div>
@@ -24,7 +24,7 @@ function GitHub() {
                 </div>
             </div>
             <div class="lg:row-span-3 row-span-1 justify-center items-center flex shadow-md  rounded-2xl p-1">
-                <div className="lg:text-[24px] text-[17px] lg:flex items-center font-bold ">
+                <div className="lg:text-[24px] text-[17px] lg:flex items-center font-bold w-96 px-1.5 lg:px-0">
                     <div className='lg:pt-8 lg:p-3 pt-5'>
                         <GoRocket className='lg:text-[84px] text-[50px]' />
                     </div>
@@ -37,8 +37,8 @@ function GitHub() {
                 </div>
             </div>
             <div class="lg:row-span-3 row-span-1 justify-center items-center flex shadow-md rounded-2xl p-1">
-                <div className="lg:text-[24px] text-[17px] lg:flex items-center font-bold ">
-                    <div className='lg:pt-8 lg:p-3 pt-5'>
+                <div className="lg:text-[24px] text-[17px] lg:flex lg:items-center font-bold w-96 px-1.5 lg:px-0">
+                    <div className='lg:pt-8 lg:p-3 pt-5 '>
                         <SlTrophy className='lg:text-[84px] text-[50px]' />
                     </div>
                     <div>

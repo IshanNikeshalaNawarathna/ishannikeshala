@@ -11,24 +11,24 @@ export const Contact = () => {
     <>
       <div className='relative isolate px-8 '>
 
-        <div className='mx-auto lg:max-w-5xl  lg:py-0 py-10 sm:py-20 lg:pt-10'>
+        <div className='mx-auto lg:max-w-5xl py-20 sm:py-32 lg:pt-32'>
           <div className='pb-8 lg:pb-8'>
             <span className='font-bold text-4xl'>CONTACT</span>
           </div>
           <div className="mt-4">
-            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-1 lg:gap-4">
               <div class="lg:row-span-3 row-span-1 ">
-                <div class="grid grid-cols-1 gap-2 md:grid-cols-2 ">
-                  <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                  <input class="w-full bg-gray-100 text-gray-900  p-3 rounded-lg focus:outline-none focus:shadow-outline"
                     type="text" placeholder="Your Name*" />
-                  <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                  <input class="w-full bg-gray-100 text-gray-900  p-3 rounded-lg focus:outline-none focus:shadow-outline"
                     type="text" placeholder="Email*" />
                 </div>
-                <div>
+                <div className="gap-2">
                   <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                     type="email" placeholder="Subject*" />
                 </div>
-                <div >
+                <div className="gap-2">
                   <textarea placeholder="Message*" class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
                 </div>
                 <div className="mt-4 ">

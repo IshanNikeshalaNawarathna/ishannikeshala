@@ -16,27 +16,10 @@ export const Contact = () => {
             <span className='font-bold text-4xl'>CONTACT</span>
           </div>
           <div className="mt-4">
-            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-1 lg:gap-4">
-              <div class="lg:row-span-3 row-span-1 ">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
-                  <input class="w-full bg-gray-100 text-gray-900  p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                    type="text" placeholder="Your Name*" />
-                  <input class="w-full bg-gray-100 text-gray-900  p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                    type="text" placeholder="Email*" />
-                </div>
-                <div className="gap-2">
-                  <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                    type="email" placeholder="Subject*" />
-                </div>
-                <div className="gap-2">
-                  <textarea placeholder="Message*" class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
-                </div>
-                <div className="mt-4 ">
-                  <Button />
-                </div>
-              </div>
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-1 lg:gap-1">
+
               <div className='grid grid-cols-1  md:grid-cols-1 lg:grid-cols-1 gap-4 lg:gap-4'>
-                <div className="py-6 md:py-0 md:px-6">
+                <div className="py-6 md:py-0 md:px-0">
                   <h1 className="text-4xl font-bold">Get in touch</h1>
                   <p className="pt-2 pb-4 text-xl font-semibold">Fill in the form to start a conversation</p>
                   <div className="space-y-4">
@@ -81,6 +64,24 @@ export const Contact = () => {
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+              <div class="lg:row-span-3 row-span-1 ">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                  <input class="w-full bg-gray-100 text-gray-900  p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                    type="text" placeholder="Your Name*" />
+                  <input class="w-full bg-gray-100 text-gray-900  p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                    type="text" placeholder="Email*" />
+                </div>
+                <div className="gap-2">
+                  <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                    type="email" placeholder="Subject*" />
+                </div>
+                <div className="gap-2">
+                  <textarea placeholder="Message*" class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                </div>
+                <div className="mt-4 ">
+                  <Button />
                 </div>
               </div>
             </div>

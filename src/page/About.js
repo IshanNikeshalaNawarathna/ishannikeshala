@@ -2,7 +2,9 @@ import React, { useState, Fragment } from 'react'
 import img from '../assets/img/ISHAN.jpg';
 import GitHub from '../components/GitHub';
 import Button from '../components/Button';
-
+import Eduction from '../components/Education'
+import Skills from '../components/Skills';
+import Experience from '../components/Experience';
 
 export const About = () => {
 
@@ -26,48 +28,12 @@ export const About = () => {
               </div>
               <Button />
             </div>
+
+            <Eduction />
+            <Skills />
+            <Experience/>
             <div className='lg:mt-10 mt-10'>
               <ol class="relative border-s border-gray-200 dark:border-gray-700">
-                <li class="mb-10 ms-4">
-                  <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                  <time class="mb-1 text-3xl font-semibold leading-none text-gray-400 dark:text-gray-500">2022-Present</time>
-                  <h3 class="text-2xl font-semibold  dark:text-gray-900 text-white">Education</h3>
-                  <h3 class="text-2xl font-semibold  dark:text-gray-900 text-white">BEng In Software Engineering | IIC university of technology Cambodia  University</h3>
-                  <p class="mb-4 text-xl font-normal text-gray-500 dark:text-gray-400">As a undergraduate of the Bachelor of Engineering in Software Engineering program, I possess a deep understanding of software design, development, and maintenance. With I strong foundation in computer science, programming languages, and software development methodologies, I am well-equipped to meet industry standards and customer requirements in designing and developing software applications. I am prepared to contribute to the advancement of the field through I have knowledge and expertise in software engineering principles.</p>
-                </li>
-                <li class="mb-2 ms-4">
-                  <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                  <time class="mb-1 text-3xl font-normal leading-none text-gray-400 dark:text-gray-500">2022-Present</time>
-                  <h3 class="text-2xl font-semibold dark:text-gray-900 text-white">Skills</h3>
-                  <div className='px-5 mt-3'>
-                    <ol class="relative border-s border-gray-200 dark:border-gray-700 mt-3">
-                      <li class="mb-2 ms-4">
-                        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Programming Languages: Java, PHP</time>
-                      </li>
-                      <li class="mb-2 ms-4">
-                        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Front-end Technologies: React, React Native</time>
-                      </li>
-                      <li class="mb-2 ms-4">
-                        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">CSS Frameworks: Bootstrap, Tailwind CSS</time>
-                      </li>
-                      <li class="mb-2 ms-4">
-                        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Databases: MySQL, Firebase</time>
-                      </li>
-                      <li class="mb-2 ms-4">
-                        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">communication skills, Team collaboration</time>
-                      </li>
-                      <li class="mb-2 ms-4">
-                        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Development Practices: Version Control (Git)</time>
-                      </li>
-                    </ol>
-                  </div>
-                </li>
                 <li className="ms-4">
                   <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                   <time className="mb-1 text-3xl font-semibold leading-none text-gray-400 dark:text-gray-500">2023-Present</time>
@@ -78,7 +44,7 @@ export const About = () => {
                         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                         <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">2023-Present</time>
                         <h3 class="text-xl font-semibold  dark:text-gray-900 text-white">Technology Blogger</h3>
-                        <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Medium</p>
+                        <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Medium and Linkedin</p>
 
                       </li>
                       <li className="mb-2 ms-4">

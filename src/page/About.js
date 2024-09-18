@@ -31,59 +31,8 @@ export const About = () => {
 
             <Eduction />
             <Skills />
-            <Experience/>
+            <Experience />
             <div className='lg:mt-10 mt-10'>
-              <ol class="relative border-s border-gray-200 dark:border-gray-700">
-                <li className="ms-4">
-                  <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                  <time className="mb-1 text-3xl font-semibold leading-none text-gray-400 dark:text-gray-500">2023-Present</time>
-                  <h3 className="text-2xl font-semibold  dark:text-gray-900 text-white">Experience</h3>
-                  <div className='px-5 mt-3'>
-                    <ol className="relative border-s border-gray-200 dark:border-gray-700">
-                      <li class="mb-5 ms-4">
-                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">2023-Present</time>
-                        <h3 class="text-xl font-semibold  dark:text-gray-900 text-white">Technology Blogger</h3>
-                        <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Medium and Linkedin</p>
-
-                      </li>
-                      <li className="mb-2 ms-4">
-                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Project Experience</time>
-                        <h3 className="text-xl font-semibold  dark:text-gray-900 text-white">Marketing UI design in Figma</h3>
-                        <p className="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
-                      </li>
-                      <li className="mb-5 ms-4">
-                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Volunteer Experience</time>
-                        <div className='px-5 mt-3'>
-                          <ol className="relative border-s border-gray-200 dark:border-gray-700">
-                            <li class="mb-5 ms-4">
-                              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                              <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">2023-Present</time>
-                              <h3 class="text-xl font-semibold  dark:text-gray-900 text-white">GitHub</h3>
-                              <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Developer program Member</p>
-
-                            </li>
-                            <li className="mb-5 ms-4">
-                              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                              <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">2024-Present</time>
-                              <h3 className="text-xl font-semibold  dark:text-gray-900 text-white">DEV COMMUNITY</h3>
-                              <p className="text-base font-normal text-gray-500 dark:text-gray-400">Member.</p>
-                            </li>
-                            <li className="mb-5 ms-4">
-                              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                              <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">2018 Present</time>
-                              <h3 className="text-xl font-semibold  dark:text-gray-900 text-white">INTERNET SOCIETY</h3>
-                              <p className="text-base font-normal text-gray-500 dark:text-gray-400">Member.</p>
-                            </li>
-                          </ol>
-                        </div>
-                      </li>
-                    </ol>
-                  </div>
-                </li>
-              </ol>
               <div className='lg:hidden'>
                 <GitHub />
               </div>
